@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Style Script', cursive;
 }
 
 html{
@@ -141,13 +144,14 @@ html{
     align-items: center;
     width: 90%;
     margin: auto auto 50px auto;
+    
 }
 .skill-text{
     width: 400px;
 }
 .skill-img{
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
 }
 .skill-img img{
     width:100%;
@@ -168,6 +172,7 @@ html{
     margin: 0px;
     font-weight: 400;
     letter-spacing: 1px;
+    
 }
 .s-box-container{
     margin-top: 30px;
@@ -233,6 +238,11 @@ html{
     width: 360px;
     height: 240px;
     margin: 10px;
+}
+.gallery img:hover{
+    transform: translateY(-20px);
+    box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.1);
+    transition: all ease 0.2s;
 }
 
 
