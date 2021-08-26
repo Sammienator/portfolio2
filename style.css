@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital@1&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Style Script', cursive;
+    font-family: 'Source Serif Pro', serif;
 }
 
 html{
@@ -219,8 +218,7 @@ html{
 #portfolio{
     display: flex;
     flex-direction: column;
-    background-color: gray;
-    color: white;
+    color: black;
     align-items: center;
     padding: 20px;
    
@@ -302,6 +300,10 @@ html{
     box-sizing: border-box;
     align-items: center;
     margin: 20px 0px;
+}
+.heading {
+  
+    text-align: center;
 }
 .input{
     padding: 12px;
