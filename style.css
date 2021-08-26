@@ -63,7 +63,8 @@ html{
   }
   .model{
       width: 500px;
-      height: 500px;
+      height: 400px;
+      margin: 20px;
   }
   .content{
       width: 90%;
@@ -235,7 +236,7 @@ html{
 .gallery img{
     width: 360px;
     height: 240px;
-    margin: 10px;
+    margin: 30px;
 }
 .gallery img:hover{
     transform: translateY(-20px);
