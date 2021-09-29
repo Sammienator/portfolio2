@@ -265,6 +265,7 @@ h1{
     display: flex;
     flex-direction: column;
     padding: 20px;
+  
 }
 .row{
     display: flex;
@@ -288,6 +289,7 @@ h1{
     background-size: 100% 200%;
     transition: all .8s;
     
+    
 }.box:hover{
     background-position: left bottom;
     color: white;
@@ -299,6 +301,7 @@ h1{
     height: 100px;
    
 }
+
 
 /* contect section */
 #contact{
